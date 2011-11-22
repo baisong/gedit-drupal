@@ -19,9 +19,8 @@ This project contains code-completion snippets, mimetypes & icons for Gedit Drup
 
         # sudo update-mime-database /usr/share/mime
 
-  e)  Add icon into your icons folder, first of all find your iconset name 
-      (gnome, Tangerine, ..), and copy into this folder (on scalable subfolder)
-      icon file:
+  e)  Add icons into your icons folder 
+      Here are some common icon sets (yours may not be in the list below):
       
     sudo cp icons/* /usr/share/icons/Amaranth/scalable/mimetypes/
     sudo cp icons/* /usr/share/icons/gnome/scalable/mimetypes/
@@ -35,10 +34,10 @@ This project contains code-completion snippets, mimetypes & icons for Gedit Drup
 
       after that regenerate iconset cache:
       
-        # cd /usr/share/icons
-        # sudo gtk-update-icon-cache ICONSET_NAME
+    cd /usr/share/icons
+    sudo gtk-update-icon-cache ICONSET_NAME
 
-  f)  Enable Snippet plugin from
+  f)  Enable snippet plugin from inside Gedit
 
         Edit -> Preferences -> Plugins
 
@@ -56,7 +55,7 @@ This project contains code-completion snippets, mimetypes & icons for Gedit Drup
       Press "Import snippets" button (second from left on bottom) and import *.xml file
       do you require. After that you can use drupal-snippet
 
-= USAGE ========================================================================
+# USAGE
 
 Using Snippet is very simple, when you write a drupal module or install file 
 please select, from View -> Highlight Mode -> Scripts -Drupal, and now you can
