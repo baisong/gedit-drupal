@@ -15,10 +15,7 @@ This project contains Snippet for getid to have a rapid development for Drupal d
 
   c)  Create a new mimetype into your machine
 
-        # sudo cp mimetype/drupal.mime.xml          /usr/share/mime/packages/drupal.mime.xml
-        # sudo cp mimetype/drupal-theme.mime.xml    /usr/share/mime/packages/drupal-theme.mime.xml
-        # sudo cp mimetype/drupal-profile.mime.xml  /usr/share/mime/packages/drupal-profile.mime.xml
-        # sudo cp mimetype/drupal-make.mime.xml     /usr/share/mime/packages/drupal-make.mime.xml
+        # sudo cp mimetype/drupal.xml          /usr/share/mime/packages/
 
   d)  Update mimetype database
 
@@ -28,11 +25,16 @@ This project contains Snippet for getid to have a rapid development for Drupal d
       (gnome, Tangerine, ..), and copy into this folder (on scalable subfolder)
       icon file:
       
-        # sudo cp icons/application-x-drupal-php.svg          /usr/share/icons/ICONSET_NAME/scalable/mimetype/application-x-drupal-php.svg
-        # sudo cp icons/application-x-drupal-tpl-php.svg      /usr/share/icons/ICONSET_NAME/scalable/mimetype/application-x-drupal-tpl-php.svg
-        # sudo cp icons/application-x-drupal-profile-php.svg  /usr/share/icons/ICONSET_NAME/scalable/mimetype/application-x-drupal-profile-php.svg
-        # sudo cp icons/application-x-drupal-make-php.svg     /usr/share/icons/ICONSET_NAME/scalable/mimetype/application-x-drupal-make-php.svg
-      
+    sudo cp icons/* /usr/share/icons/Amaranth/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/gnome/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/Gorilla/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/Lush/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/Nuvola/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/oxygen/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/SphereCrystal/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/Wasp/scalable/mimetypes/
+    sudo cp icons/* /usr/share/icons/whiteglass/scalable/mimetypes/
+
       after that regenerate iconset cache:
       
         # cd /usr/share/icons
