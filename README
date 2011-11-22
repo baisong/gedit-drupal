@@ -1,17 +1,15 @@
-This project contains Snippet for getid to have a rapid development for Drupal devel
+This project contains code-completion snippets, mimetypes & icons for Gedit Drupal developers
 
-= INSTALLATION =================================================================
+# INSTALLATION
 
   a)  Create a new folder and clone repository on your machine:
 
-        # mkdir gedit-drupal
+        # git clone git://github.com/mavimo/gedit-drupal.git gedit-drupal
         # cd gedit-drupal
-        # git init
-        # git clone git://github.com/mavimo/gedit-drupal.git
 
   b)  Copy language definition into /usr/share/gtksourceview-2.0/language-specs/
 
-        # sudo cp drupal.lang /usr/share/gtksourceview-2.0/language-specs/
+        # sudo cp lang/drupal.lang /usr/share/gtksourceview-2.0/language-specs/
 
   c)  Create a new mimetype into your machine
 
